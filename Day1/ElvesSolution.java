@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ElvesSolution {
-    public static List<Elf> elves = new ArrayList<>();
+    private static List<Elf> elves = new ArrayList<>();
     public static void main(String[] args) {
 
         String l = "";
