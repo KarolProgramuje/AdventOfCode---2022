@@ -1,0 +1,29 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class GameXYZ {
+    public static void main(String[] args) {
+        Map<String, Integer> gameValues = new HashMap<>();
+        gameValues.put("A X", 4);
+        gameValues.put("A Y", 8);
+        gameValues.put("A Z", 3);
+        gameValues.put("B X", 1);
+        gameValues.put("B Y", 5);
+        gameValues.put("B Z", 9);
+        gameValues.put("C X", 7);
+        gameValues.put("C Y", 2);
+        gameValues.put("C Z", 6);
+
+
+        int totalScore = 0;
+
+        String[] split = Input.INPUT.split("[\n]");
+
+        for(String each : split) {
+                totalScore += gameValues.get(each);
+        }
+
+        System.out.println(totalScore);
+
+    }
+}
