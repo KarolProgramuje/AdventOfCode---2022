@@ -1,2 +1,2 @@
 # AdventOfCode
-I am posting here solutions to daily tasks from adventofcode.com
+I am posting here my solutions to daily tasks from adventofcode.com
